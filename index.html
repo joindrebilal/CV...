@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        /* Styles par défaut */
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: none;
+        }
+
+        /* Pour les écrans de plus de 768px (grandes surfaces) */
+        @media (min-width: 769px) {
+            .desktop {
+                display: block;
+            }
+        }
+
+        /* Pour les écrans de moins de 768px (petites surfaces) */
+        @media (max-width: 768px) {
+            .mobile {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Version Desktop -->
+    <div class="desktop">
+        <iframe src="Curriculum Vitae.html" width="100%" height="550px" frameborder="0"></iframe>
+    </div>
+
+    <!-- Version Mobile -->
+    <div class="mobile">
+        <iframe src="Curriculum Vitae-Mobile.html" width="100%" height="500px" frameborder="0"></iframe>
+    </div>
+
+</body>
+</html>
